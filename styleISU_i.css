@@ -2,14 +2,14 @@ body {
 	margin-bottom: 45px;
 	height: auto;
 	width: auto;
-	background: linear-gradient(180deg, rgba(147,28,61,1) 21%, rgba(17, 172, 0, 0.50) 51%, rgba(255,245,103,0.30) 87%), url(isu_bg1.jpg) no-repeat center;
+	background: linear-gradient(180deg, rgba(0, 104, 7, 0.839) 21%, rgba(126, 255, 111, 0.5) 51%, rgba(255, 245, 103, 0.664) 87%), url(isu_ol.jpg) no-repeat center;
 	background-size: cover ;
 }
 
 .navbar ul{
 	list-style: none;
 	border-radius: 10px;
-	background-color:#5a1629;
+	background-color:#00db37aa;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -27,9 +27,8 @@ body {
 }
 
 .navbar a:hover{
-	background-color: #cb7171;
+	background-color: #b5ffe080;
 }
-
 .navbar li{
 	float:left;
 }
@@ -41,31 +40,42 @@ body {
 }
 .bg_header{
 	margin: auto;
-	max-width: 90%;
-	background-color: #701b33;
+	max-width: 85%;
+	background-color: #023700;
 	border-radius: 10px;
 	padding: 10px;
 }
 
-.ceat {
+#isu_logo {
 	padding: 2px 5px 2px;
 	margin-top: 10PX;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10PX;;
+	margin-bottom: 10px;;
 	max-width: 85px;
 	min-width: 20%;
 }
 
-#text_College{
-	font-size: 160%;
-	color:#fcfafb; 
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-	font-weight: bold;
+#text_ISU{
+	text-decoration: underline;
+  	margin-left: 10px;
+	font-size: 200%;
+	color:#ffffff; 
+	font-family: Cambria;
+  	font-weight: bold;
+}
+#text_CAMPUS{
+	text-decoration: underline;
+	margin-top: -5%;
+  	margin-left: 10px;
+	font-size: 130%;
+	color:#ffffff; 
+	font-family: Cambria;
+  	font-weight: bold;
 }
 
 .head_coll_cont{
-	text-align: center;
+	text-align: left;
 	padding: 0px 1% 0px 2px;
 }
 
@@ -76,30 +86,40 @@ body {
 	border-width: 200x;
 	border-radius: 10px;
 	font-weight: bold;
-	font-family:sans-serif;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: #fcfafb;
-	background-color: #701b33;
+	background-color: #1a732d;
 	text-align: center
 	} 
 
-.parag1{
-	background-color: #fffbfb;
-	border-radius: 10px;
+#parag1{
+  background-color:#d2ffb28d;
+  border-radius: 10px;
+  text-indent: 25px;
+	text-align: center;
+	font-size: 105%;
+}
+
+.parag2{
+  background-color:#d2ffb28d;
+  border-radius: 10px;
 	text-indent: 25px;
 	text-align: justify;
 	font-size: 105%;
 }
+
 
 .div1 {
 	margin-top: 2%;
 	max-width: 55%;
 	border-style: solid;
 	border-radius: 10px;
-	border-color: #701b36;
+	border-color: #f5ee1d;
 	padding: 20px 10% 3%;
 	background-color: #fafffa;
 	opacity: 0.94;
 }
+
 
 .contentContainer{
 	display: flex;
@@ -108,10 +128,9 @@ body {
 	align-items: center;
 	gap: 10px;
 }
-
 .logoDiv{
 	max-width: 70%;
-  	max-height: 70%;
+  max-height: 70%;
 	display: flex;
 }
 
@@ -123,5 +142,6 @@ li{
 	font-size: 100%;
 	border-radius: 10px;
 	padding: 3px 10px 15px;
-	background-color: #e9ffe5;
+	background-color: #dbffe3;
 	}
+	
